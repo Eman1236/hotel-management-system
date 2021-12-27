@@ -1,0 +1,45 @@
+{
+    "items" : [
+        {
+            "name" : "Chicken Karahi",
+            "price" : 950
+        },
+        {
+            "name" : "Chicken Wings",
+            "price" : 450
+        },
+        
+        {
+            "name" : "Chicken Biryani",
+            "price" : 1150
+        },
+        {
+            "name" : "Naan Basket",
+            "price" : 300
+        },
+        {
+            "name" : "BBQ Platter",
+            "price" : 1050
+        },
+        {
+            "name" : "Chicken Corn Soup",
+            "price" : 200
+        },
+        {
+            "name" : "French Fries",
+            "price" : 150
+        },
+        {
+            "name" : "Pasta",
+            "price" : 350
+        },
+        {
+            "name" : "Ice Cream per Scoop",
+            "price" : 150
+        },
+        {
+            "name" : "Cold Drink 1.5 Ltr",
+            "price" : 120
+        }
+    ]
+}
