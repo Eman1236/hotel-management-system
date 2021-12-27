@@ -1,0 +1,20 @@
+{
+    "Rooms": [
+        {
+            "type": "Single Deluxe",
+            "price": 10000
+        },
+        {
+            "type": "Double Deluxe",
+            "price": 12500
+        },
+        {
+            "type": "Single Executive",
+            "price": 15000
+        },
+        {
+            "type": "Double Executive",
+            "price": 20000
+        }
+    ]
+}
