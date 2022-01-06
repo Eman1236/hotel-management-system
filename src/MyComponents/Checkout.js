@@ -33,7 +33,7 @@ const Checkout = () => {
                 roomId: roomId
             })
         }
-        const url = "http://localhost:3001/hotel/getUser";
+        const url = "https://sda-backend-hotel.herokuapp.com/hotel/getUser";
         fetch(url,reqoptions)
         .then((response) => response.json())
         .then((json) => {
@@ -52,7 +52,7 @@ const Checkout = () => {
                 roomId: roomId
             })
         }
-        const url = "http://localhost:3001/hotel/checkOut";
+        const url = "https://sda-backend-hotel.herokuapp.com/hotel/checkOut";
         fetch(url,reqoptions)
         .then((response) => response.json())
         .then((json) => {

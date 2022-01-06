@@ -117,7 +117,7 @@ const OrderFood = () => {
             })
         }
         console.log(reqoptions.body);
-        const url = "http://localhost:3001/hotel/orderFood";
+        const url = "https://sda-backend-hotel.herokuapp.com/hotel/orderFood";
         fetch(url,reqoptions)
         .then((response) => response.json())
         .then((json) => {

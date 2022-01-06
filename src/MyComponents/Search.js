@@ -26,7 +26,7 @@ const Search = () => {
                 type: type
             })
         }
-        const url = "http://localhost:3001/hotel/searchRoom";
+        const url = "https://sda-backend-hotel.herokuapp.com/hotel/searchRoom";
         fetch(url, reqoptions)
             .then((response) => response.json())
             .then((json) => {

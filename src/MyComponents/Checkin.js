@@ -38,7 +38,7 @@ const Checkin = (props) => {
         },
             body : JSON.stringify(checkInDetails)
         }
-        const url = "http://localhost:3001/hotel/checkIn";
+        const url = "https://sda-backend-hotel.herokuapp.com/hotel/checkIn";
         fetch(url,reqoptions)
         .then((response) => response.json())
         .then((json) => {

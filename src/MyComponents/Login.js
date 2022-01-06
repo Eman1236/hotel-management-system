@@ -22,7 +22,7 @@ const Login = () => {
                 password: cred.password
             })
         }
-        const url = "http://localhost:3001/user/login";
+        const url = "https://sda-backend-hotel.herokuapp.com/user/login";
         fetch(url, reqoptions)
             .then((response) => response.json())
             .then((json) => {

@@ -27,7 +27,7 @@ const NoteOrder =() => {
             "Authorization" : 'Bearer ' + localStorage.getItem('t')},
         }
         //console.log(reqoptions.body);
-        const url = "http://localhost:3001/hotel/showOrders";
+        const url = "https://sda-backend-hotel.herokuapp.com/hotel/showOrders";
         fetch(url,reqoptions)
         .then((response) => response.json())
         .then((json) => {
@@ -48,7 +48,7 @@ const NoteOrder =() => {
                 orderId: id
             })
         }
-        const url = "http://localhost:3001/hotel/confirmOrder";
+        const url = "https://sda-backend-hotel.herokuapp.com/hotel/confirmOrder";
         fetch(url,reqoptions)
         .then((response) => response.json())
         .then((json) => {
@@ -80,7 +80,7 @@ const NoteOrder =() => {
                 orderId: id
             })
         }
-        const url = "http://localhost:3001/hotel/deleteOrder";
+        const url = "https://sda-backend-hotel.herokuapp.com/hotel/deleteOrder";
         fetch(url,reqoptions)
         .then((response) => response.json())
         .then((json) => {
