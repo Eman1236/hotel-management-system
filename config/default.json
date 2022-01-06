@@ -1,9 +1,9 @@
 {
     "Hotel": {
         "dbConfig": {
-            "HOST": "localhost",
-            "USER": "root",
-            "PASSWORD": "root",
+            "HOST": "hotel-server.mysql.database.azure.com",
+            "USER": "hotel@hotel-server",
+            "PASSWORD": "M@@n1236",
             "DB": "hotel",
             "dialect": "mysql",
                 "pool": {
